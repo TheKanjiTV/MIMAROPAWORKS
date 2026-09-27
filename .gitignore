@@ -1,5 +1,12 @@
 node_modules/
 dist/
+.agent
+.agents
+.claude
+.codex
+.gemini
+.impeccable
+.opencode
 *.tsbuildinfo
 .env
 .env.*

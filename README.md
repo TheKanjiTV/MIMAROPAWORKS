@@ -424,5 +424,4 @@ Possible sustainability paths include institutional/PESO partnerships and employ
 
 See [Career, profile, employer accounts, and Admin update](docs/CAREER_ADMIN_UPDATE.md) for the implemented tools, Associate Degree support, profile-save repair, audit logs, and [300 local demo employer accounts](docs/DEMO_EMPLOYERS.md).
 #   M I M A R O P A W O R K S  
- #   M I M A R O P A W O R K S  
  
