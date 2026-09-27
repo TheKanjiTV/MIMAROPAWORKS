@@ -1,0 +1,78 @@
+.seeker-shell {
+  max-width: 1160px;
+  margin: auto;
+  padding: 28px 24px 70px;
+}
+.seeker-shell h1 {
+  font-size: 32px;
+  line-height: 1.3;
+  margin: 24px 0;
+}
+.seeker-shell section {
+  margin: 28px 0;
+}
+.seeker-shell h2 {
+  font-size: 24px;
+  margin: 0 0 14px;
+}
+.seeker-shell h3 {
+  font-size: 20px;
+  margin: 0 0 12px;
+}
+.seeker-shell p {
+  margin: 10px 0 16px;
+  line-height: 1.6;
+}
+.seeker-shell li {
+  margin-bottom: 12px;
+}
+.seeker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 18px;
+}
+.seeker-grid .account-card {
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.seeker-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 24px;
+}
+.seeker-nav a {
+  display: inline-block;
+  padding: 12px 16px;
+  border: 1px solid #cbd5df;
+  border-radius: 8px;
+  background: #fff;
+  color: #263e50;
+  text-decoration: none;
+}
+.seeker-nav a[aria-current='page'] {
+  background: #176b61;
+  color: white;
+}
+.seeker-search {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 14px;
+  align-items: end;
+}
+.seeker-search h2,
+.seeker-search p {
+  grid-column: 1/-1;
+}
+@media (max-width: 650px) {
+  .seeker-shell {
+    padding: 20px 16px 48px;
+  }
+  .seeker-search {
+    grid-template-columns: 1fr;
+  }
+  .seeker-shell h1 {
+    font-size: 28px;
+  }
+}

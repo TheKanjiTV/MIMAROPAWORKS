@@ -1,0 +1,12 @@
+[
+  {
+    "label": "desktop",
+    "name": "skills-gap",
+    "bounds": {
+      "viewport": 1920,
+      "scrollWidth": 1920,
+      "dialog": null
+    },
+    "violations": []
+  }
+]

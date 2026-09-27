@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Readiness answers and feedback survive reload",
+    "Interview saves answer, returns feedback, and changes question",
+    "Resume draft saves, reloads, and downloads",
+    "Coach creates plan and persists completed step",
+    "Training checklist and notes survive reload",
+    "Mobile profile editor adds skill and saves real profile",
+    "Company modal closes with Escape and restores directory route",
+    "300 jobs paginate in groups of 20 with stable URL navigation"
+  ],
+  "count": 8
+}

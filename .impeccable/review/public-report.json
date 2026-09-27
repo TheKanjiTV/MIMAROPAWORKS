@@ -1,0 +1,30 @@
+[
+  {
+    "size": "desktop",
+    "path": "/",
+    "width": 1440,
+    "scroll": 1440,
+    "violations": []
+  },
+  {
+    "size": "desktop",
+    "path": "/login",
+    "width": 1440,
+    "scroll": 1440,
+    "violations": []
+  },
+  {
+    "size": "mobile",
+    "path": "/",
+    "width": 390,
+    "scroll": 390,
+    "violations": []
+  },
+  {
+    "size": "mobile",
+    "path": "/login",
+    "width": 390,
+    "scroll": 390,
+    "violations": []
+  }
+]

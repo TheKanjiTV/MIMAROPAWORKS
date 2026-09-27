@@ -1,0 +1,25 @@
+{
+  "report": [
+    {
+      "label": "desktop",
+      "name": "skills-gap",
+      "bounds": {
+        "viewport": 1920,
+        "scrollWidth": 1920,
+        "dialog": null
+      },
+      "violations": []
+    },
+    {
+      "label": "mobile",
+      "name": "skills-gap",
+      "bounds": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "dialog": null
+      },
+      "violations": []
+    }
+  ],
+  "failures": []
+}

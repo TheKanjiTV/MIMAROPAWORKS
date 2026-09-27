@@ -1,0 +1,28 @@
+[
+  {
+    "label": "desktop",
+    "bounds": {
+      "width": 680,
+      "scrollWidth": 678,
+      "clientWidth": 678,
+      "pageWidth": 1920
+    },
+    "violations": [],
+    "associateOption": true,
+    "experienceFields": true,
+    "escape": true
+  },
+  {
+    "label": "small-mobile",
+    "bounds": {
+      "width": 296,
+      "scrollWidth": 294,
+      "clientWidth": 294,
+      "pageWidth": 320
+    },
+    "violations": [],
+    "associateOption": true,
+    "experienceFields": true,
+    "escape": true
+  }
+]

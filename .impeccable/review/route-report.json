@@ -1,0 +1,311 @@
+{
+  "reports": [
+    {
+      "size": "desktop",
+      "path": "/dashboard",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Good evening, Maria.",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/jobs",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Find your next opportunity.",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/jobs/recommended",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Recommended for you",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/jobs/job-0",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Customer Service Associate",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/applications",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "My Applications",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/people",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Discover People & Organizations",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/people/company-0",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Discover People & Organizations",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/messages",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Messages",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/notifications",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Notifications",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/profile",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Maria Santos",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/profile/resume",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Your Resume",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/settings",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Account Settings",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/career",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Career Development",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/career/skills-gap",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Skills Gap Analysis",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "desktop",
+      "path": "/career/training",
+      "width": 1440,
+      "scroll": 1440,
+      "h1": "Recommended Training",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/dashboard",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Good evening, Maria.",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/jobs",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Find your next opportunity.",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/jobs/recommended",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Recommended for you",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/jobs/job-0",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Customer Service Associate",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/applications",
+      "width": 390,
+      "scroll": 390,
+      "h1": "My Applications",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/people",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Discover People & Organizations",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/people/company-0",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Discover People & Organizations",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/messages",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Messages",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/notifications",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Notifications",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/profile",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Maria Santos",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/profile/resume",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Your Resume",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/settings",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Account Settings",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/career",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Career Development",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/career/skills-gap",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Skills Gap Analysis",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "mobile",
+      "path": "/career/training",
+      "width": 390,
+      "scroll": 390,
+      "h1": "Recommended Training",
+      "overflow": [],
+      "violations": []
+    },
+    {
+      "size": "small",
+      "path": "/dashboard",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "size": "small",
+      "path": "/jobs",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "size": "small",
+      "path": "/people",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "size": "small",
+      "path": "/profile",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "size": "small",
+      "path": "/settings",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "size": "tablet",
+      "path": "/dashboard",
+      "width": 1024,
+      "scroll": 1024
+    }
+  ],
+  "errors": []
+}

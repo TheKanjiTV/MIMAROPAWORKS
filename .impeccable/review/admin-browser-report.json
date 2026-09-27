@@ -1,0 +1,191 @@
+{
+  "views": [
+    {
+      "name": "desktop",
+      "view": "overview",
+      "width": 1440,
+      "documentWidth": 1440,
+      "dialogs": 0,
+      "violations": []
+    },
+    {
+      "name": "desktop",
+      "view": "verifications",
+      "width": 1440,
+      "documentWidth": 1440,
+      "dialogs": 0,
+      "violations": []
+    },
+    {
+      "name": "desktop",
+      "view": "company-review",
+      "width": 1440,
+      "documentWidth": 1440,
+      "dialogs": 0,
+      "violations": []
+    },
+    {
+      "name": "desktop",
+      "view": "rejection-dialog",
+      "width": 1440,
+      "documentWidth": 1440,
+      "dialogs": 1,
+      "violations": []
+    },
+    {
+      "name": "desktop",
+      "view": "jobs",
+      "width": 1440,
+      "documentWidth": 1440,
+      "dialogs": 0,
+      "violations": []
+    },
+    {
+      "name": "desktop",
+      "view": "accounts",
+      "width": 1440,
+      "documentWidth": 1440,
+      "dialogs": 0,
+      "violations": []
+    },
+    {
+      "name": "desktop",
+      "view": "audit-logs",
+      "width": 1440,
+      "documentWidth": 1440,
+      "dialogs": 0,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "tr:nth-child(1) > td:nth-child(3) > .admin-audit-details > small"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.39 (foreground color: #687a91, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "tr:nth-child(2) > td:nth-child(3) > .admin-audit-details > small"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.39 (foreground color: #687a91, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "view": "overview",
+      "width": 390,
+      "documentWidth": 390,
+      "dialogs": 0,
+      "violations": []
+    },
+    {
+      "name": "mobile",
+      "view": "verifications",
+      "width": 390,
+      "documentWidth": 390,
+      "dialogs": 0,
+      "violations": []
+    },
+    {
+      "name": "mobile",
+      "view": "company-review",
+      "width": 390,
+      "documentWidth": 390,
+      "dialogs": 0,
+      "violations": []
+    },
+    {
+      "name": "mobile",
+      "view": "rejection-dialog",
+      "width": 390,
+      "documentWidth": 390,
+      "dialogs": 1,
+      "violations": []
+    },
+    {
+      "name": "mobile",
+      "view": "jobs",
+      "width": 390,
+      "documentWidth": 390,
+      "dialogs": 0,
+      "violations": []
+    },
+    {
+      "name": "mobile",
+      "view": "accounts",
+      "width": 390,
+      "documentWidth": 390,
+      "dialogs": 0,
+      "violations": []
+    },
+    {
+      "name": "mobile",
+      "view": "audit-logs",
+      "width": 390,
+      "documentWidth": 390,
+      "dialogs": 0,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "tr:nth-child(1) > td:nth-child(3) > .admin-audit-details > small"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.39 (foreground color: #687a91, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "tr:nth-child(2) > td:nth-child(3) > .admin-audit-details > small"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.39 (foreground color: #687a91, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    "desktop: 30 daily analytics values accessible",
+    "desktop: Pending → Rejected → Verified persisted; verified search and pagination passed",
+    "desktop: job status filters passed",
+    "desktop: account role filter passed",
+    "desktop: real verification/rejection audit records with actor and searchable metadata passed",
+    "mobile: 30 daily analytics values accessible",
+    "mobile: Pending → Rejected → Verified persisted; verified search and pagination passed",
+    "mobile: job status filters passed",
+    "mobile: account role filter passed",
+    "mobile: real verification/rejection audit records with actor and searchable metadata passed"
+  ],
+  "consoleErrors": [],
+  "apiFailures": [],
+  "failures": [],
+  "finalCorrections": [
+    {
+      "finding": "Audit record identifier text contrast measured 4.39:1 on the confirmation pass.",
+      "file": "src/components/admin/admin.css",
+      "change": "Changed #687a91 to #53677f; calculated WCAG contrast on white is 5.81:1.",
+      "verification": "Mathematically verified after the two browser rounds; no third browser round."
+    },
+    {
+      "finding": "Offscreen skip link appeared only in full-document screenshots after scrolling.",
+      "file": "src/components/admin/admin.css",
+      "change": "Opacity stays zero until focus; keyboard focus still reveals the skip link."
+    }
+  ],
+  "summary": {
+    "views": 14,
+    "documentOverflow": 0,
+    "interactionFailures": 0,
+    "consoleErrors": 0,
+    "apiFailures": 0,
+    "cleanAxeViewsAtCapture": 12,
+    "auditLogContrastCorrectedAfterCapture": 2
+  }
+}

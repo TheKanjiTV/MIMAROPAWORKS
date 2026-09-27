@@ -1,0 +1,64 @@
+{
+  "apiMode": "All API requests mocked; external HTTPS blocked",
+  "results": [
+    {
+      "name": "Global search updates twice on the same /jobs route",
+      "status": "pass",
+      "evidence": {
+        "url": "http://127.0.0.1:5173/jobs?q=Remote",
+        "query": "Remote"
+      }
+    },
+    {
+      "name": "Account menu Escape restores focus",
+      "status": "pass",
+      "evidence": "Closed and returned focus to the Account menu button."
+    },
+    {
+      "name": "Both mobile dropdowns stay inside a 320px viewport",
+      "status": "pass",
+      "evidence": {
+        "account": {
+          "x": 16,
+          "y": 76,
+          "width": 288,
+          "height": 422.765625
+        },
+        "notifications": {
+          "x": 16,
+          "y": 76,
+          "width": 288,
+          "height": 302.3125
+        }
+      }
+    },
+    {
+      "name": "Profile edit query clears and editor reopens",
+      "status": "pass",
+      "evidence": "Opened and closed twice; URL returned to /profile each time."
+    },
+    {
+      "name": "Notification partial failure preserves failed unread record",
+      "status": "pass",
+      "evidence": {
+        "unread": 1,
+        "failedItemKept": true,
+        "keyboardAction": true
+      }
+    },
+    {
+      "name": "Password reset uses mocked API success and failure without claiming a password change",
+      "status": "pass",
+      "evidence": {
+        "mockedRequests": 2,
+        "successMessage": "Server reset-instructions message",
+        "failureRecoverable": true
+      }
+    },
+    {
+      "name": "No browser runtime errors",
+      "status": "pass",
+      "evidence": []
+    }
+  ]
+}

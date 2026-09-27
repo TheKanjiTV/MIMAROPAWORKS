@@ -1,0 +1,31 @@
+{
+  "result": {
+    "requested": 300,
+    "existing_accounts": 300,
+    "existing_companies": 300,
+    "existing_seed_jobs": 300,
+    "active_seed_jobs": 300,
+    "additional_jobs_created_by_demo_accounts": 0,
+    "to_create": 0,
+    "created": 300,
+    "preserved": 0
+  },
+  "rerun": {
+    "requested": 300,
+    "existing_accounts": 300,
+    "existing_companies": 300,
+    "existing_seed_jobs": 300,
+    "active_seed_jobs": 300,
+    "additional_jobs_created_by_demo_accounts": 0,
+    "to_create": 0,
+    "created": 0,
+    "preserved": 300
+  },
+  "counts": {
+    "accounts": 303,
+    "companies": 301,
+    "jobs": 300
+  },
+  "originalAccountsPreserved": 3,
+  "originalCompaniesPreserved": 1
+}
